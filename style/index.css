@@ -1,1 +1,269 @@
-/* Add CSS styling here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  color: #4f4f4f;
+  line-height: 1.5;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  background-color: #b3cbb9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20rem;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 5rem;
+  margin: 2%;
+}
+nav {
+  display: flex;
+  width: 30%;
+  margin-left: 3%;
+  border: 1px solid grey;
+}
+nav a {
+  background-color: #ff6f59;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  padding: 2% 5%;
+  width: 25%;
+  text-align: center;
+  transition: 0.2s;
+}
+.homeA {
+  border-right: 1px solid grey;
+}
+.aboutA {
+  border-right: 1px solid grey;
+}
+.contactA {
+  border-right: 1px solid grey;
+}
+nav a:hover {
+  background-color: #434a42;
+  color: #ff6f59;
+}
+#mainContent {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.top {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.mainimg {
+  width: 50%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+}
+.summary {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 00%;
+}
+.summary * {
+  padding: 2%;
+}
+
+.summary h2 {
+  font-size: 3rem;
+}
+
+.summary a {
+  background-color: #ff6f59;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  padding: 1.5% 0%;
+  width: 22%;
+  text-align: center;
+  transition: 0.2s;
+  margin-left: 2%;
+  border: 1px solid grey;
+}
+.summary a:hover {
+  background-color: #434a42;
+  color: #ff6f59;
+}
+
+.singleproject {
+  width: 22%;
+  margin-bottom: 5rem;
+}
+
+.projects {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: 5rem;
+  margin-top: 5rem;
+}
+
+.projects h3 {
+  text-align: center;
+}
+
+footer {
+  background-color: #b3cbb9;
+  padding: 2%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer a {
+  background-color: #ff6f59;
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  padding: 0.6% 1.5%;
+  text-align: center;
+  transition: 0.2s;
+  border: 1px solid grey;
+  margin-top: 20px;
+}
+
+footer a:hover {
+  background-color: #434a42;
+  color: #ff6f59;
+}
