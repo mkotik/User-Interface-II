@@ -151,7 +151,7 @@ h1 {
 }
 nav {
   display: flex;
-  width: 30%;
+  width: 52rem;
   margin-left: 3%;
   border: 1px solid grey;
 }
@@ -198,7 +198,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 00%;
+  padding: 0%;
 }
 .summary * {
   padding: 2%;
@@ -214,7 +214,7 @@ nav a:hover {
   text-decoration: none;
   color: white;
   padding: 1.5% 0%;
-  width: 22%;
+  width: 13rem;
   text-align: center;
   transition: 0.2s;
   margin-left: 2%;
@@ -266,4 +266,79 @@ footer a {
 footer a:hover {
   background-color: #434a42;
   color: #ff6f59;
+}
+
+@media (max-width: 800px) {
+  header {
+    align-items: center;
+  }
+  nav {
+    margin: 0;
+    width: auto;
+  }
+  nav a {
+    width: 13rem;
+    padding: 1rem 2rem;
+  }
+  .summary a {
+    width: 13rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  footer a {
+    width: 13rem;
+    padding: 1rem 2rem;
+  }
+  .singleproject {
+    width: 30%;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+  .homeA,
+  .aboutA,
+  .contactA {
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+
+  header {
+    height: 40vh;
+  }
+  .top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainimg {
+    width: 100%;
+  }
+  .summary {
+    width: 100%;
+    align-items: center;
+  }
+  .summary p {
+    text-indent: 3rem;
+    line-height: 2;
+  }
+  footer h2 {
+    font-size: 1.8rem;
+  }
+  footer a {
+    width: 13rem;
+    padding: 1rem 2rem;
+  }
+  .singleproject {
+    font-size: 1.8rem;
+    width: 45%;
+  }
+  .projects {
+    margin-top: 2rem;
+  }
+  #mainContent {
+    margin-bottom: 0rem;
+  }
 }
